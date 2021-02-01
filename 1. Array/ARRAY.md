@@ -22,4 +22,17 @@ And it provide the indexing by using we can access the item which we want in jus
     
  ```
 
+## Initializing the all index with Zero's
+
+```cpp
+  int Arr[10] = {0};
+```
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+## Initializing the some index value while creating
+
+```cpp
+  int Arr[10] = {1,2,3};
+```
+| 1 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
