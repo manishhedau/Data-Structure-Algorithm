@@ -28,7 +28,7 @@ And it provide the indexing by using we can access the item which we want in jus
   int Arr[10] = {0};
 ```
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| ------------- |:-------------:| -----:|
+|---|---|---|---|---|---|---|---|---|---|
 
 ## Initializing the some index value while creating
 
@@ -36,7 +36,7 @@ And it provide the indexing by using we can access the item which we want in jus
   int Arr[10] = {1,2,3};
 ```
 | 1 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| ------------- |:-------------:| -----:|
+|---|---|---|---|---|---|---|---|---|---|
 
 
 
