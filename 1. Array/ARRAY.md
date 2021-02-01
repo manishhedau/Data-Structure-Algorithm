@@ -6,14 +6,8 @@ Array is a 'Linear Data Structure' which can used to store multiple items of sam
 And it provide the indexing by using we can access the item which we want in just constant time  O(1).
 
 
-
-![demo1](https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_1.png)
-![demo2](https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_2.png)
-![demo3](https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_3.jpg)
-
-
 <img src="https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_1.png" width="800px" height="auto">
 
 <img src="https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_2.png" width="800px" height="auto">
 
-<img src="https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_3.png" width="800px" height="auto">
+<img src="https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_3.jpg" width="800px" height="auto">
