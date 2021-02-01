@@ -12,4 +12,8 @@ And it provide the indexing by using we can access the item which we want in jus
 ![demo3](https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_3.jpg)
 
 
-<img src="e5kui\src\assets\img\launch\bunda3d5000FloorElevatorControlsFigmaPrototypeFileRouting.png" width="800px" height="auto">
+<img src="https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_1.png" width="800px" height="auto">
+
+<img src="https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_2.png" width="800px" height="auto">
+
+<img src="https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_3.png" width="800px" height="auto">
