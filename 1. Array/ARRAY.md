@@ -29,6 +29,7 @@ And it provide the indexing by using we can access the item which we want in jus
 ```
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |---|---|---|---|---|---|---|---|---|---|
+
  0    1    2   3   4   5   6   7    8   9
 ## Initializing the some index value while creating
 
@@ -37,6 +38,7 @@ And it provide the indexing by using we can access the item which we want in jus
 ```
 | 1 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |---|---|---|---|---|---|---|---|---|---|
+
  0    1    2   3   4   5   6   7    8   9
 
 
