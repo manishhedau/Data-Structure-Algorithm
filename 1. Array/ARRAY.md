@@ -30,7 +30,7 @@ And it provide the indexing by using we can access the item which we want in jus
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |---|---|---|---|---|---|---|---|---|---|
 
- 0    1    2   3   4   5   6   7    8   9
+
 ## Initializing the some index value while creating
 
 ```cpp
@@ -39,7 +39,59 @@ And it provide the indexing by using we can access the item which we want in jus
 | 1 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 |---|---|---|---|---|---|---|---|---|---|
 
- 0    1    2   3   4   5   6   7    8   9
+
+## Taking Array item values from the user
+```cpp
+  int n;
+  cin>>n;
+  int Arr[10];
+  
+  for(int i = 0; i<n; i++)
+  {
+      cin>>Array[i];
+  }
+
+```
+
+
+## Printing Array item values
+```cpp
+  int n;
+  cin>>n;
+  int Arr[10];
+  
+  for(int i = 0; i<n; i++)
+  {
+      Cout<<Array[i]<<" ";
+  }
+
+```
+## Updating Array index value
+
+```cpp
+  int Arr[10] = {1,2,3};
+```
+| 1 | 2 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|---|---|---|---|---|---|---|---|---|---|
+
+```cpp
+  Arr[5] = 500;
+```
+After updating value of index 5
+| 1 | 2 | 3 | 0 | 0 | 500 | 0 | 0 | 0 | 0 |
+|---|---|---|---|---|---|---|---|---|---|
+
+
+## Know the Array  length of Array using sizeof() operator
+```cpp
+ int Arr[10];
+ cout<<sizeof(arr)/sizeof(arr[0]);
+```
+## Know the Array size using in terms of bits
+```cpp
+ int Arr[10];
+ cout<<sizeof(arr);
+```
 
 
 
