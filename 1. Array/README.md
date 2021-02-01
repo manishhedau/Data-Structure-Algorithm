@@ -85,12 +85,12 @@ After updating value of index 5
 ## Know the Array  length of Array using sizeof() operator
 ```cpp
  int Arr[10];
- cout<<sizeof(arr)/sizeof(arr[0]);
+ cout<<sizeof(arr)/sizeof(arr[0]); // 10
 ```
 ## Know the Array size using in terms of bits
 ```cpp
  int Arr[10];
- cout<<sizeof(arr);
+ cout<<sizeof(arr); // 40 Because data type is int And int comsume 4 bytes in 64bit architecture
 ```
 
 
