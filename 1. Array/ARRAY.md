@@ -5,6 +5,6 @@
 Array is a 'Linear Data Structure' which can used to store multiple items of same data type.
 And it provide the indexing by using we can access the item which we want in just constant time  O(1).
 
-<img src = "https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_1.png">
+<img src = "https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_1.png" style = "height:200%; width:150%">
 <img src = "https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_2.png">
-<img src = "https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_3.png">
+<img src = "https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_3.jpg">
