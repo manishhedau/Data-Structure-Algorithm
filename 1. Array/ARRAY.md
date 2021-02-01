@@ -9,4 +9,4 @@ And it provide the indexing by using we can access the item which we want in jus
 
 ![demo1](https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_1.png)
 ![demo2](https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_2.png)
-![demo3](https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_3.png)
+![demo3](https://github.com/manishhedau/Data-Structure-Algorithm/blob/main/1.%20Array/Array_3.jpg)
