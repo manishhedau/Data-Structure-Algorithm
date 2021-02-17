@@ -82,6 +82,38 @@ int Maximum_subarray_sum_3(int arr[], int n)
 
     return Max_sum;
 }
+
+// To get the sequence of subarray which sum is max
+// Use two pointer approach to get the start,end index of sequence of max subarray
+void find_max_subarray_sum(int arr[], int n)
+{
+    int s = 0;
+    int e = 0;
+
+    int maxSum = 0;
+    int currSum = 0;
+
+    for(int i = 0; i<n; i++)
+    {
+        currSum += arr[i];
+
+        if(currSum<0)
+        {
+            currSum = 0;
+            s = i+1;
+        }
+        maxSum = max(maxSum, currSum);
+        e = i;
+    }
+
+    cout<<"The maximum of subarray is : "<<maxSum<<endl;
+
+    for(int i = s; i<=e; i++)
+    {
+        cout<<arr[i]<<", ";
+    }
+}
+
 int main()
 {
     int n;
