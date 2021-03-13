@@ -8,6 +8,24 @@ using namespace std;
 // But the tight bound will be O(7^N) because from the every position we can not move 8 direction
 // we can only move only 7 directions
 // Space Complexity - O(N*N)
+
+/*
+Base case :-
+-----------
+If we are able to place all knight and means we are able to place N*N in N*N board.
+
+Recursive assumptions :-
+-------------------------
+Knight can move in 8 direction, for placing first knight in board we don't where to place first knight,
+so what I am saying just placed first knight at first place,
+and try to place all the knight by validting through a function
+(place knight at first place and recursive function will place all the knight).
+
+
+self work :-
+------------
+if our function will not be able to place N*N night then undo our all changes.
+*/
 int totalPaths = 0;
 // function for printing the grid
 void display(vector<vector<int>>&grid, int n) {
@@ -29,7 +47,7 @@ bool isValid(vector<vector<int>>&grid, vector<vector<int>>&visited, int n, int c
 void knight_solve(vector<vector<int>>&grid, vector<vector<int>>&visited, int n, int currRow,
                   int currCol, int count) {
 	// base case
-	if (count == n * n - 1) {
+	if (count == n * n) {
 		// we have place n*n knight successfully
 		grid[currRow][currCol] = count;
 		display(grid, n);
@@ -40,7 +58,7 @@ void knight_solve(vector<vector<int>>&grid, vector<vector<int>>&visited, int n, 
 	}
 
 
-	if (count >= n * n) {
+	if (count > n * n) {
 		return;
 	}
 
@@ -73,7 +91,7 @@ int main() {
 	vector<vector<int>>grid(n, vector<int>(n, 0));
 	vector<vector<int>>visited(n, vector<int>(n, 0));
 
-	knight_solve(grid, visited, n, 0, 0, 0);
+	knight_solve(grid, visited, n, 0, 0, 1);
 	cout << "Total Paths : " << totalPaths << endl;
 	return 0;
 }
