@@ -91,11 +91,11 @@ int main() {
 	printNode(head2);
 	printNode(head3);
 
-	cout << "Merging Two sorted Linked List : " << endl;
-	// Merge two sorted linked List
+	cout << "Concating Two sorted Linked List : " << endl;
+	// Concatinate two sorted linked List
 	node *two = concatinate_ll(head1, head2);
 	printNode(two);
-	// Merge Three Sorted Linked List
+	// Concatinate Three Sorted Linked List
 	node *three = concatinate_ll(two, head3);
 	printNode(three);
 	return 0;
@@ -110,11 +110,12 @@ Input :-
 
 Output :-
 --------
+
 1 -> 2 -> 3 -> 4 -> 5 ->
 6 -> 7 -> 8 -> 9 -> 10 ->
 11 -> 12 -> 13 -> 14 -> 15 ->
-Merging Two sorted Linked List :
+Concatinate Two sorted Linked List :
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 ->
 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15 ->
-
 
 */
