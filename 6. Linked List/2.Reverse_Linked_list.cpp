@@ -25,8 +25,6 @@ void printNode(node *head) {
 
 }
 
-
-
 void insertAtHead(node *&head, int data) {
 	// if ll is empty
 	if (head == NULL) {
@@ -38,6 +36,23 @@ void insertAtHead(node *&head, int data) {
 	node *new_bucket = new node(data);
 	new_bucket->next = head;
 	head = new_bucket;
+}
+
+void reverse_ll(node*&	head)
+{
+	// Sliding windows technique
+	node *next = head;
+	node *prev = NULL, *current = NULL;
+	while (next != NULL)
+	{
+		prev = current;
+		current = next;
+
+		next = next->next;
+
+		current->next = prev;
+	}
+	head = current;
 }
 
 void reverse_ll(node*& head)
