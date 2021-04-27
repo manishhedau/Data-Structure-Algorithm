@@ -19,7 +19,7 @@ Output :-
 */
 #include<iostream>
 using namespace std;
-int row,col;
+int row, col;
 
 // 1 Approach Space - 0(row*col) Same solution in brute force way
 // making one extra 2D array with same value and while performing operation instead of making changes in original array
@@ -28,21 +28,21 @@ int row,col;
 
 // 2 Approach Space - 0(1)
 // Approach is same but without using extra 2D array
-// converting row x and col y 1 to -1
+// converting row x and col y 1 to -1 (istead of -1 we can take any other value but not 0)
 void change_row_col(int arr[][100], int x, int y)
 {
     // converting all 1 to -1 in row
-    for(int j = 0; j<col; j++)
+    for (int j = 0; j < col; j++)
     {
-        if(arr[x][j]!=0)
+        if (arr[x][j] != 0)
         {
             arr[x][j] = -1;
         }
     }
 
     // converting all 1 to -1 in col
-    for(int j = 0; j<row; j++){
-        if(arr[j][y]!=0)
+    for (int j = 0; j < row; j++) {
+        if (arr[j][y] != 0)
         {
             arr[j][y] = -1;
         }
@@ -51,23 +51,23 @@ void change_row_col(int arr[][100], int x, int y)
 void convert(int arr[][100])
 {
     // finding 0 in matrix and changing row and col
-    for(int i = 0; i<row; i++)
+    for (int i = 0; i < row; i++)
     {
-        for(int j = 0; j<col; j++)
+        for (int j = 0; j < col; j++)
         {
-            if(arr[i][j]==0)
-                change_row_col(arr, i,j);
+            if (arr[i][j] == 0)
+                change_row_col(arr, i, j);
         }
     }
 
     // inverting -1 to 0 in matrix
-    for(int i = 0; i<row; i++)
+    for (int i = 0; i < row; i++)
     {
-        for(int j = 0; j<col; j++)
+        for (int j = 0; j < col; j++)
         {
-            if(arr[i][j]==-1)
+            if (arr[i][j] == -1)
             {
-                arr[i][j] =0;
+                arr[i][j] = 0;
             }
         }
     }
@@ -79,29 +79,29 @@ void print_matrix(int arr[][100])
 {
     // printing all the matrix
 
-    cout<<"Printing Matrix"<<endl<<endl;
+    cout << "Printing Matrix" << endl << endl;
 
-    for(int i = 0; i<row; i++)
+    for (int i = 0; i < row; i++)
     {
-        for(int j = 0; j<col; j++)
+        for (int j = 0; j < col; j++)
         {
-            cout<<arr[i][j]<<" ";
+            cout << arr[i][j] << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
 }
 int main()
 {
 
-    cin>>row>>col;
+    cin >> row >> col;
 
     int arr[100][100];
 
-    for(int i  = 0; i<row; i++)
+    for (int i  = 0; i < row; i++)
     {
-        for(int j = 0; j<col; j++)
+        for (int j = 0; j < col; j++)
         {
-            cin>>arr[i][j];
+            cin >> arr[i][j];
         }
     }
 

@@ -1,5 +1,15 @@
-1 -> 2 -> 3 -> 4 -> 5 -> 
-6 -> 7 -> 8 -> 9 -> 10 -> 
-11 -> 12 -> 13 -> 14 -> 15 -> 
-Merging Two sorted Linked List : 
-1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> 
+Going Toword Base : i = 0 j = 0
+Going Toword Base : i = 1 j = 1
+ABC
+Going Toword Base : i = 2 j = 1
+ACB
+Going Toword Base : i = 1 j = 0
+Going Toword Base : i = 1 j = 1
+BAC
+Going Toword Base : i = 2 j = 1
+BCA
+Going Toword Base : i = 2 j = 0
+Going Toword Base : i = 1 j = 1
+CBA
+Going Toword Base : i = 2 j = 1
+CAB

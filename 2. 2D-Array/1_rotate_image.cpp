@@ -22,52 +22,56 @@ Rotate the array 90 degrees anticlockwise.
 using namespace std;
 
 
-void rotate_image(int arr[][1001],int n)
+void rotate_image(int arr[][1001], int n)
 {
-    for(int i = 0; i<n; i++)
+
+    // reverse the every row
+    for (int i = 0; i < n; i++)
     {
-        reverse(arr[i], arr[i]+n);
+        reverse(arr[i], arr[i] + n);
     }
 
-    for(int i = 0; i<n; i++)
+    // make an triangle and swap every values
+    for (int i = 0; i < n; i++)
     {
-        for(int j = 0; j<n; j++)
+        for (int j = 0; j < n; j++)
         {
-            if(i<j)
+            if (i < j)
             {
-               swap(arr[i][j], arr[j][i]);
+                swap(arr[i][j], arr[j][i]);
             }
         }
     }
 
-    for(int i = 0; i<n; i++)
+    // print the result
+    for (int i = 0; i < n; i++)
     {
-        for(int j = 0; j<n; j++)
+        for (int j = 0; j < n; j++)
         {
-            cout<<arr[i][j]<<" ";
+            cout << arr[i][j] << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
 }
 
 int main()
 {
     int n;
-    cin>>n;
+    cin >> n;
 
 
     int arr[1001][1001];
 
     // taking the 2d array values an input
-    for(int i = 0; i<n; i++)
+    for (int i = 0; i < n; i++)
     {
-        for(int j = 0; j<n; j++)
+        for (int j = 0; j < n; j++)
         {
-            cin>>arr[i][j];
+            cin >> arr[i][j];
         }
     }
 
-    rotate_image(arr,n);
+    rotate_image(arr, n);
 }
 
 

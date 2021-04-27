@@ -23,21 +23,26 @@ using namespace std;
 int findWays(int n)
 {
     // base case
-    if(n==1) return 1;
-    if(n==0) return 1;
+    if (n == 1) return 1;
+    if (n == 0) return 1;
     // recursive assumption
-    int num = (n-1)*findWays(n-2);
+    // lets talk about one person
+    // ek person pair me gya to partner sath leke jayenga - findways(n-2)
+    // and baki person kaise bhi ja skte hai so - (n-1)*findways(n-2)
+    int num = (n - 1) * findWays(n - 2);
     // self work
-    return num + findWays(n-1);
+    // agar person single gya to to - findways(n-1) and baki persons to pair me ja skte or single bhi ja skte hai
+    // we have to add
+    return num + findWays(n - 1);
 }
 
 int main()
 {
     int n;
-    cin>>n;
+    cin >> n;
 
     //int noWay = findWays(n);
-    cout<<"The ways are : "<<noWay<<endl;
+    cout << "The ways are : " << noWay << endl;
     return 0;
 }
 
